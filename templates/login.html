@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-900 flex items-center justify-center min-h-screen">
+    <div class="bg-gray-800 p-8 rounded-xl w-96 shadow-lg">
+      <h2 class="text-white text-2xl font-bold mb-6 text-center">
+        Secure Login
+      </h2>
+
+      <form method="post" class="space-y-4">
+        <input
+          name="user"
+          placeholder="Username"
+          class="w-full p-2 rounded bg-gray-700 text-white"
+        />
+
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="w-full p-2 rounded bg-gray-700 text-white"
+        />
+
+        <button
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white p-2 rounded"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
